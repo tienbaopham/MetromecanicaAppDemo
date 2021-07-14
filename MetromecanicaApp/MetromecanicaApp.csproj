@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Crearte.jpg" />
+    <None Remove="Create.jpg" />
+    <None Remove="img_contact.png" />
+    <None Remove="img_home.png" />
+    <None Remove="img_map.png" />
+    <None Remove="img_message.png" />
+    <None Remove="img_setting.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro" Version="4.0.173" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Crearte.jpg" />
+    <Resource Include="Create.jpg" />
+    <Resource Include="img_contact.png" />
+    <Resource Include="img_home.png" />
+    <Resource Include="img_map.png" />
+    <Resource Include="img_message.png" />
+    <Resource Include="img_setting.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\Building_Model.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Create.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\image_model.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\img_contact.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\img_home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\img_map.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\img_message.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\img_setting.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\img_signout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UserControl\" />
+  </ItemGroup>
+
+</Project>
